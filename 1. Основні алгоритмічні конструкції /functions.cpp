@@ -50,30 +50,30 @@ double first_task(vector<double> axb) { // Варіант 10
     return y;
 }
 
-double second_task(std::vector<double> axb) { // WIP Варіант 5
+double second_task(std::vector<double> axb) { // Варіант 5
     double a, x, b, y;
     a = axb[0]; x = axb[1]; b = axb[2];
-    y = (x >= 3) ? sqrt(5*pow(x, 2) - a) : (b * x + 8);
+    y = (x >= 1) ? sin(x) : (3*pow(x, 2) + b*x - 3);
     return y;
 }
 
-vector<double> third_task(std::vector<double> axb) { // WIP Варіант 5
+vector<double> third_task(std::vector<double> axb) { // Варіант 5
     double a, x, b, y;
     a = axb[0]; x = axb[1]; b = axb[2];
-    if (x < 3) {
-        if ((5 * pow(x, 3)- a) < 0) {
-            cerr << "Від'ємне значення підкореневого виразу\n";
-            return { 0, 1 };
-        }
-        y = sqrt((5 * pow(x, 3)- a));
-    }
-    else if (x == 3) y = b * x + 8;
-    else {
-        if (x > 11) {
+    if (x < 6) {
+        if (x < -1) {
             cerr << "Функція не визначена\n";
             return { 0, 1 };
         }
-        y = cos(x);
+        y = sin(x);
+    }
+    else if (x == 6) y = 3*pow(x, 4) + b*x - 3;
+    else {
+        if ((b*x + a) < 0) {
+            cerr << "Від'ємне значення логарифмічного виразу\n";
+            return { 0, 1 };
+        }
+        y = log(b*x + a);
     }
     return { y, 0 };
 }
