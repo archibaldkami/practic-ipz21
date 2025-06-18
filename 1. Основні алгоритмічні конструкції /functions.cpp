@@ -96,8 +96,12 @@ vector<double> BaseAlgConstructions::user_input(int count) {
     cout << "Choose method:\n1. Manual input\n2. Random input\n\nYour choise: "; cin >> choise;
     if (choise - 1) {
         double min, max;
+        try {
         cout << "Enter min value: "; cin >> min;
         cout << "Enter max value: "; cin >> max;
+        } catch (const std::exception& e) {
+            err(e.what());
+        }
         if (min > max) {
             err("Min value must be bigger than max value");
             return vars;
@@ -109,7 +113,10 @@ vector<double> BaseAlgConstructions::user_input(int count) {
         for (int i = 0; i < count; i++) vars[i] = GetRandomNumberFloat(min, max, 2);
 
     } else for (int i = 0; i < count; i++) { 
-        cout << "Enter " << vars_str[i] << ": "; cin >> vars[i]; 
+        try {cout << "Enter " << vars_str[i] << ": "; cin >> vars[i];}
+        catch (const std::exception& e) {
+            err(e.what());
+        } 
     }
 
     system("clear");

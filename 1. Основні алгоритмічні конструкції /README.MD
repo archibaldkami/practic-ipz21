@@ -2,11 +2,8 @@
 ```
 git clone https://github.com/archibaldkami/practic-ipz21.git
 
-cd practic-ipz21/1
+cd practic-ipz21/1.\ Основні\ алгоритмічні\ конструкції
 
-g++ functions.cpp <Назва файлу для перевірки>.cpp && ./a.out
+g++ functions.cpp main.cpp && ./a.out
 ```
 
-### До прикладу
-
-`g++ functions.cpp 1.cpp && ./a.out`
