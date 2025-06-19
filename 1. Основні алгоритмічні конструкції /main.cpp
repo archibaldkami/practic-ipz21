@@ -1,5 +1,5 @@
 #include <iostream>
-#include "functions.hpp"
+#include "functions.hpp" // Імпорт бібліотеки з функціями
 
 int main() {
     BaseAlgConstructions user;
