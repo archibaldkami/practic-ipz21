@@ -2,8 +2,8 @@
 ```
 git clone https://github.com/archibaldkami/practic-ipz21.git
 
-cd practic-ipz21/1.\ Основні\ алгоритмічні\ конструкції
+cd practic-ipz21/2.\ Масиви
 
-g++ functions.cpp main.cpp && ./a.out
+g++ mylib.cpp main.cpp && ./a.out
 ```
 
