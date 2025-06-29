@@ -1,0 +1,74 @@
+{
+    "students": [
+        {
+            "surname": "Іванчук",
+            "english": 4,
+            "GREAT_MATH": 3,
+            "physics": 3,
+            "programming": 4
+        },
+        {
+            "surname": "Вербицький",
+            "english": 4,
+            "GREAT_MATH": 3,
+            "physics": 3,
+            "programming": 3
+        },
+        {
+            "surname": "Демченко",
+            "english": 5,
+            "GREAT_MATH": 5,
+            "physics": 4,
+            "programming": 4
+        },
+        {
+            "surname": "Якусевич",
+            "english": 5,
+            "GREAT_MATH": 4,
+            "physics": 4,
+            "programming": 3
+        },
+        {
+            "surname": "Пащенко",
+            "english": 5,
+            "GREAT_MATH": 4,
+            "physics": 4,
+            "programming": 5
+        },
+        {
+            "surname": "Зінченко",
+            "english": 4,
+            "GREAT_MATH": 2,
+            "physics": 3,
+            "programming": 3
+        },
+        {
+            "surname": "Сінченко",
+            "english": 2,
+            "GREAT_MATH": 3,
+            "physics": 3,
+            "programming": 2
+        },
+        {
+            "surname": "Бовсуновський",
+            "english": 4,
+            "GREAT_MATH": 5,
+            "physics": 5,
+            "programming": 5
+        },
+        {
+            "surname": "Кравець",
+            "english": 3,
+            "GREAT_MATH": 5,
+            "physics": 4,
+            "programming": 5
+        },
+        {
+            "surname": "Зайцев",
+            "english": 3,
+            "GREAT_MATH": 4,
+            "physics": 4,
+            "programming": 4
+        }
+    ]
+}

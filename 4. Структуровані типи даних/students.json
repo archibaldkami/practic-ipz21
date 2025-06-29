@@ -1,0 +1,135 @@
+{
+	"students" : 
+	[
+		{
+			"course" : 1,
+			"faculty" : "ComputerScience",
+			"grades" : 
+			[
+				4,
+				3,
+				3,
+				4
+			],
+			"group" : "GroupA",
+			"surname" : "\u0406\u0432\u0430\u043d\u0447\u0443\u043a"
+		},
+		{
+			"course" : 2,
+			"faculty" : "ComputerScience",
+			"grades" : 
+			[
+				4,
+				3,
+				3,
+				3
+			],
+			"group" : "GroupC",
+			"surname" : "\u0412\u0435\u0440\u0431\u0438\u0446\u044c\u043a\u0438\u0439"
+		},
+		{
+			"course" : 2,
+			"faculty" : "ComputerScience",
+			"grades" : 
+			[
+				5,
+				5,
+				4,
+				4
+			],
+			"group" : "GroupD",
+			"surname" : "\u0414\u0435\u043c\u0447\u0435\u043d\u043a\u043e"
+		},
+		{
+			"course" : 2,
+			"faculty" : "ComputerScience",
+			"grades" : 
+			[
+				5,
+				4,
+				4,
+				3
+			],
+			"group" : "GroupA",
+			"surname" : "\u042f\u043a\u0443\u0441\u0435\u0432\u0438\u0447"
+		},
+		{
+			"course" : 1,
+			"faculty" : "Mathematics",
+			"grades" : 
+			[
+				5,
+				4,
+				4,
+				5
+			],
+			"group" : "GroupB",
+			"surname" : "\u041f\u0430\u0449\u0435\u043d\u043a\u043e"
+		},
+		{
+			"course" : 3,
+			"faculty" : "Mathematics",
+			"grades" : 
+			[
+				4,
+				2,
+				3,
+				3
+			],
+			"group" : "GroupB",
+			"surname" : "\u0417\u0456\u043d\u0447\u0435\u043d\u043a\u043e"
+		},
+		{
+			"course" : 3,
+			"faculty" : "Mathematics",
+			"grades" : 
+			[
+				2,
+				3,
+				3,
+				2
+			],
+			"group" : "GroupB",
+			"surname" : "\u0421\u0456\u043d\u0447\u0435\u043d\u043a\u043e"
+		},
+		{
+			"course" : 1,
+			"faculty" : "Physics",
+			"grades" : 
+			[
+				4,
+				5,
+				5,
+				5
+			],
+			"group" : "GroupC",
+			"surname" : "\u0411\u043e\u0432\u0441\u0443\u043d\u043e\u0432\u0441\u044c\u043a\u0438\u0439"
+		},
+		{
+			"course" : 1,
+			"faculty" : "Physics",
+			"grades" : 
+			[
+				3,
+				5,
+				4,
+				5
+			],
+			"group" : "GroupD",
+			"surname" : "\u041a\u0440\u0430\u0432\u0435\u0446\u044c"
+		},
+		{
+			"course" : 2,
+			"faculty" : "Physics",
+			"grades" : 
+			[
+				3,
+				4,
+				4,
+				4
+			],
+			"group" : "GroupA",
+			"surname" : "\u0417\u0430\u0439\u0446\u0435\u0432"
+		}
+	]
+}

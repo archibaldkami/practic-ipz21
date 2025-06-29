@@ -2,7 +2,7 @@
 ```
 git clone https://github.com/archibaldkami/practic-ipz21.git
 
-cd practic-ipz21/2.\ Масиви
+cd practic-ipz21/3.\ Алгоритми\ сортування
 
 g++ mylib.cpp main.cpp && ./a.out
 ```
