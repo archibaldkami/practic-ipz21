@@ -10,14 +10,6 @@
 using namespace std;
 
 // Завдання 1. 1-9
-
-
-
-
-
-
-
-
 StudentGroup::StudentGroup(const string& file) : filename(file) {}
 
 void StudentGroup::load_from_json() {
@@ -282,15 +274,6 @@ void StudentGroup::quick_sort() {
     cout << "Students sorted by surname (Quick Sort)!\n";
 }
 
-
-
-
-
-
-
-
-
-
 // Вставити рядок
 int InsertRow(Student_1 Tab[], int kl, int n) {
     if (n < 0 || n > kl) return kl;
@@ -381,7 +364,7 @@ int QuickSearch(Student_1 Tab[], int kl, const string& zrazok) {
 
 void display_menu_1(int &return_) {
     StudentGroup group("group.json");
-    
+
     while (true) {
         system("clear");
         cout << "\nStudent Group Analysis System\n";
