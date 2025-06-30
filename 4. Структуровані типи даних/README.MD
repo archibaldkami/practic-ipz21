@@ -9,6 +9,6 @@ sudo apt-get install libjsoncpp-dev ( Не перевірено, але ШІ к�
 
 cd practic-ipz21/4.\ Структуровані\ типи\ даних
 
-g++ -o mylib.cpp main.cpp -ljsoncpp && ./a.out
+g++ mylib.cpp main.cpp -ljsoncpp && ./a.out
 ```
 
